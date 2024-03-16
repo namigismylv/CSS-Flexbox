@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Start BootStrap</title>
     <link rel="stylesheet" href="index.css" />
     <link
       rel="stylesheet"
@@ -19,59 +19,133 @@
         <div class="header__left">
           <h2>START BOOTSTRAP</h2>
         </div>
-        <nav>
-          <ul class="header__right">
-            <li class="header__right__list">
-              <a class="header__right__list__link" href="#">Portfolio</a>
-            </li>
-            <li class="header__right__list">
-              <a a class="header__right__list__link" href="#">About</a>
-            </li>
-            <li class="header__riht__list">
-              <a a class="header__right__list__link" href="#">Contact</a>
-            </li>
+        <div class="header__right">
+          <ul class="header__right__list">
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
-        </nav>
+        </div>
       </div>
     </header>
     <main>
-      <section class="person">
-        <div class="person__profile">
+      <section id="container">
+        <div class="container__div">
           <img
-            class="person__profile__img"
+            class="container__div__img"
             src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg"
             alt=""
           />
-          <h1 class="person__profile__heading">START BOOTSTRAP</h1>
-          <div class="person__profile__icon">
+          <h1 class="container__div__heading">START BOOTSTRAP</h1>
+          <div class="container__div__icon">
             <i class="fa-solid fa-star"></i>
           </div>
-          <div class="person__text">
-            <p>Graphic Artist - Web Designer - Illustrator</p>
+          <p class="container__div__description">
+            Graphic Artist - Web Designer - Illustrator
+          </p>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <div class="portfolio__div">
+          <h2>PORTFOLIO</h2>
+          <div class="portfolio__div__icon">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="portfolio__div__cards">
+            <div class="portfolio__div__cards1">   
+              <img
+                src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png"
+                alt=""
+              />
+              <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="" />
+              <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="" />
+          </div>
+          <div class="portfolio__div__cards2">
+            
+              <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="" />
+            
+              <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="" />
+              <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="" />
+          </div>
+          </div>
+          
+          
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="about__div">
+          <h2>ABOUT</h2>
+          <div class="about__div__icon">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="about__div__text">
+            <p>Freelancer is a free bootstrap theme created by <br> Start Bootstrap. The download includes  the <br> complete source files including HTML, CSS,and<br> JavaScript as well as optional SASS stylesheets <br> for easy customization.</p>
+
+            <p>You can create your own custom avatar for  the <br> masthead, change the icon in the dividers, and <br> add your email address to  the contact form to <br> make it fully functional!</p>
+          </div>
+          <div class="about__div--button">
+            <button><i class="fa-solid fa-download"></i> Free Download!</button>
+
           </div>
         </div>
       </section>
-      <section class="portfolio">
-        <h2 class="heading">Portfolio</h2>
-
-        <div class="portfolio__icon">
+      <section id="contact">
+        <div class="contact__div">
+          <h2>Contact me</h2>
+          <div  class="contact__div__icon">
           <i class="fa-solid fa-star"></i>
-        </div>
-        <div>
-          <div class="portfolio__img">
-            <img
-              src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.pngs"
-              alt=""
-            />
           </div>
-          <div><img src="" alt="" /></div>
-          <div><img src="" alt="" /></div>
-          <div><img src="" alt="" /></div>
-          <div><img src="" alt="" /></div>
-          <div><img src="" alt="" /></div>
+            <form action="#">
+              <input type="text" placeholder="Full name">
+              <input type="text" placeholder="Email adress">
+              <input type="text" placeholder="Phone Number">
+              <textarea name="Message" id="Message" cols="30" rows="0" placeholder="Message"></textarea>
+              <button>Send</button>
+          </form>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <footer>
+        <div class="footer__top">
+         <div class="footer__top__left">
+          <h4>Location</h4>
+          <p>2215 John Daniel Drive <br>
+            Clark, MO 65243</p>
+         </div>
+         <div class="footer__top__middle">
+          <h4>AROUND THE WEB</h4>
+          <div class="footer__top__middle__icons">
+            <div id="facebook">
+            <i  class="fa-brands fa-facebook-f"></i>
+
+            </div>
+            <div id="twitter">
+            <i  class="fa-brands fa-twitter"></i>
+
+            </div>
+            <div id="linkedin">
+            <i class="fa-brands fa-linkedin-in"></i>
+              
+            </div>
+            <div id="basketball">
+            <i class="fa-solid fa-basketball"></i>
+
+            </div>
+          </div>
+         </div>
+         <div class="footer__top__right">
+          <h4>ABOUT FREELANCER</h4>
+          <p>Freelance is a free to use, MIT licensed <br> Bootstrap theme created by <a href="#">Start Bootstrap</a> .</p>
+         </div>
+
+        </div>
+        <div class="footer__bottom">
+          <small>Copyright © Your Website 2023</small>
+        </div>
+      </footer>
+    </footer>
   </body>
 </html>
